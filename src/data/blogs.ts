@@ -48,13 +48,22 @@ export const blogs: BlogEntry[] = [
       "Software Engineering",
     ],
   },
-  // {
-  //   title: "Why Every SDET Should Learn Kubernetes",
-  //   description:
-  //     "Exploring the intersection of testing and container orchestration.",
-  //   url: "https://YOUR_SUBSTACK.substack.com/p/example-article",
-  //   platform: "substack",
-  //   date: "2025-03-10",
-  //   tags: ["Kubernetes", "Testing"],
-  // },
+  {
+    title: "The Elegance of Kubernetes YAML",
+    description:
+      "YAML, the ubiquitous configuration language of Kubernetes, often appears as a simple text file. Yet, its structure reflects a sophisticated, human-centered design philosophy that balances readability with machine-parsability.",
+    url: "https://open.substack.com/pub/grvgyl/p/the-elegance-of-kubernetes-yaml",
+    platform: "substack",
+    date: "2026-04-27",
+    tags: ["Kubernetes", "DevOps", "CKAD", "Software Development", "Engineering"],
+  },
+  {
+    title: "Everything You Need to Know About API versioning and Migration in Kubernetes",
+    description:
+      "In the fast-evolving world of Kubernetes, managing API versions and migrations is critical for maintaining stability and compatibility. This guide dives deep into the strategies, best practices, and tools that ensure your applications remain resilient as your cluster evolves.",
+    url: "https://grvgyl.substack.com/p/everything-you-need-to-know-about",
+    platform: "substack",
+    date: "2026-04-28",
+    tags: ["Kubernetes", "DevOps", "CKAD", "Software Development", "Engineering"],
+  },
 ];
